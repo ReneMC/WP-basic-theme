@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -39,7 +39,6 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <?php
                 wp_nav_menu( array(
                         'menu'              => 'primary',
@@ -53,7 +52,6 @@
                         'walker'            => new wp_bootstrap_navwalker())
                 );
             ?>
-        </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
