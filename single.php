@@ -15,7 +15,7 @@ get_header(); ?>
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="post-heading">
                     <h1><?php the_title();  ?></h1>
-<!--                    <h2 class="subheading">Problems look mighty small from 150 miles up</h2> THIS IS SUBTITLE-->
+                    <!--<h2 class="subheading">Problems look mighty small from 150 miles up</h2> THIS IS SUBTITLE-->
                     <span class="meta">Posted by <a href="#"><?php the_author(); ?></a> on <?php echo get_the_date('F, j, Y'); ?></span>
                 </div>
             </div>
