@@ -24,6 +24,14 @@ function basicTheme_scripts (){
 }
 add_action('wp_enqueue_scripts', 'basicTheme_scripts');
 
+/**
+ * Filter the excerpt "read more" string.
+ */
+function wpdocs_excerpt_more( $more ) {
+    return '...';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
 function frontPageFeaturedBody(){
     if(is_front_page()){
         _e(" id='front-page'");

@@ -53,12 +53,6 @@
                         'walker'            => new wp_bootstrap_navwalker())
                 );
             ?>
-<!--            <ul class="nav navbar-nav navbar-right">-->
-<!--                <li><a href="blog.html">Blog</a></li>-->
-<!--                <li><a href="about.html">About</a></li>-->
-<!--                <li><a href="post.html">Sample Post</a></li>-->
-<!--                <li><a href="contact.html">Contact</a></li>-->
-<!--            </ul>-->
         </div>
         <!-- /.navbar-collapse -->
     </div>
