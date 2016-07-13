@@ -41,8 +41,9 @@ get_header(); ?>
 
 <nav>
     <ul class="pager">
-        <li><?php next_post_link(); ?></li>
         <li><?php previous_post_link(); ?></li>
+        <li><?php next_post_link(); ?></li>
+
     </ul>
 </nav>
 
