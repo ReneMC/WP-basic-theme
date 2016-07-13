@@ -5,7 +5,7 @@
     <header class="intro-header" style="background-image: url('<?php echo esc_url(get_template_directory_uri() );?>/images/home-bg.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                     <div class="site-heading">
                         <h1>Blog</h1>
                         <hr class="small">
@@ -19,7 +19,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="post-preview" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <a href="<?php the_permalink();?>" title="<?php the_title_attribute(); ?>">

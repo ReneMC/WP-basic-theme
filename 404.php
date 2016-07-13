@@ -6,7 +6,7 @@
   url('https://drscdn.500px.org/photo/125850765/q%3D80_m%3D1500/58833313ad6df84238c6bacb672354be') no-repeat center center fixed;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                     <div class="site-heading">
                         <h1>Error 404</h1>
                         <hr class="small">
@@ -20,7 +20,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
                     <hr>

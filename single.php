@@ -11,7 +11,7 @@ get_header(); ?>
 <header class="intro-header" style="background-image: url('<?php echo esc_url(get_template_directory_uri() );?>/images/post-bg.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="post-heading">
                     <h1><?php the_title();  ?></h1>
@@ -27,7 +27,7 @@ get_header(); ?>
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                 <?php the_content(); ?>
                 <?php wp_link_pages(); ?>
             </div>
