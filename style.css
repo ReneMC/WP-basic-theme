@@ -1,4 +1,20 @@
+/*
+Theme Name: Basic Theme
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: ReneMc
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, responsive-layout, custom-header, custom-menu, featured-images
+Text Domain: basicTheme
 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* === GLOBAL ==== */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -408,5 +424,11 @@ body#front-page {
 }
 
 .front-header {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),*/
+    /*url("https://drscdn.500px.org/photo/125850765/q%3D80_m%3D1500/58833313ad6df84238c6bacb672354be") no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
     margin-top: 120px;
 }
