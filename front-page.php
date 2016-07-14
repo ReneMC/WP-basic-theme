@@ -7,9 +7,9 @@
         <div class="row">
             <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>Front Page</h1>
+                    <h1><?php the_field('main_header_text'); ?></h1>
                     <hr class="small">
-                    <span class="subheading">A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start BootstrapA Clean Blog Theme by Start Bootstrap A Clean Blog Theme by Start Bootstrap</span>
+                    <span class="subheading"><?php the_field('main_header_subtext'); ?></span>
                 </div>
             </div>
         </div>

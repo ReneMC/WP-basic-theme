@@ -13,9 +13,9 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>Contact Me</h1>
+                        <h1><?php the_field('contact_title'); ?></h1>
                         <hr class="small">
-                        <span class="subheading">Have questions? I have answers (maybe).</span>
+                        <span class="subheading"><?php the_field('contact_subtitle'); ?></span>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+                <p><?php the_field('contact_text'); ?></p>
                 <?php echo do_shortcode('[contact-form-7 id="35" title="Contact form"]'); ?>
             </div>
         </div>
