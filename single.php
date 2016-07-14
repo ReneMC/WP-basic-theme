@@ -8,7 +8,7 @@ get_header(); ?>
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('<?php echo esc_url(get_template_directory_uri() );?>/images/post-bg.jpg')">
+<header class="intro-header" style="background-image: url('<?php the_field('post_header_image'); ?>')">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
