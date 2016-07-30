@@ -38,4 +38,10 @@ function frontPageFeaturedBody(){
         _e(" id='front-page'");
     }
 }
+
+function frontPageFooterLinks(){
+    if(is_front_page()){
+        _e(" class='white'");
+    }
+}
 ?>
