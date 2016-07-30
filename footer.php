@@ -29,7 +29,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?> | Made with ♥ using <a href="https://wordpress.org/">WordPress</a> and <a href="http://startbootstrap.com/">StartBootstrap</a>.</p>
+                <p class="copyright text-muted">Copyright &copy; <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?> | Made with ♥ using <a target="_blank" href="https://wordpress.org/">WordPress</a> and <a target="_blank" href="http://startbootstrap.com/">StartBootstrap</a>.</p>
             </div>
         </div>
     </div>
