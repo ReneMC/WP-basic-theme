@@ -417,7 +417,7 @@ body {
 /* Full screen responsive background image with dark filter */
 body#front-page {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("images/bg-cover.jpg") no-repeat center center fixed;
+  url("images/cover.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -429,7 +429,7 @@ body#front-page {
 }
 
 
-/* fullscreen video-background styles */
+/* === VIDEO BACKGROUND === */
 #background {
     position: fixed;
     top: 50%;
@@ -441,10 +441,14 @@ body#front-page {
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-	background-color: black;
-
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("images/screenshot.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-size: cover;
 }
-
 .white {
-	color: white;
+    color: white;
 }

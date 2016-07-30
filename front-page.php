@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
-<video autoplay loop muted poster="screenshot.jpg" id="background">
-	<source src="https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/2147/5/135736520/401813677.mp4?token=579d0e45_0x77a8b372b889af36ef704081abf84c209b853f7d" type="video/mp4">
-</video>
+<!--
+    <video autoplay loop muted poster="screenshot.jpg" id="background">
+        <source src="https://player.vimeo.com/video/135736520" type="video/mp4">
+    </video>
+-->
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
