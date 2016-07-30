@@ -30,12 +30,12 @@
                            <?php the_excerpt(); ?>
                        </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#"><?php the_author(); ?></a> on <?php echo get_the_date('F, j, Y'); ?></p>
+                    <p class="post-meta">Publicado por <a href="#"><?php the_author(); ?></a> el <?php echo get_the_date('F, j, Y'); ?></p>
                 </div>
                 <hr>
 
                 <?php endwhile; else : ?>
-                    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                    <p><?php _e( 'Ups! no hay nada que ver aquí.' ); ?></p>
                 <?php endif; ?>
 
                 <!-- Pager -->
