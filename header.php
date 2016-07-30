@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php wp_title(''); ?></title>
+    <title><?php wp_title('|', true, 'right'); ?></title>
 
     <!-- Custom Fonts -->
     <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
