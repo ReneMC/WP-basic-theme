@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 
-<!--
     <video autoplay loop muted poster="screenshot.jpg" id="background">
-        <source src="https://player.vimeo.com/video/135736520" type="video/mp4">
+        <source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/program.mp4" type="video/mp4">
     </video>
--->
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->

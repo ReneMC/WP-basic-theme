@@ -24,7 +24,7 @@
 
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); frontPageFeaturedBody(); ?> >
+<body <?php body_class(); //frontPageFeaturedBody(); ?> >
 
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
