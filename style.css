@@ -398,7 +398,7 @@ form .row:first-child .floating-label-form-group {
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: red;
 }
 img::selection {
   color: white;
@@ -450,4 +450,9 @@ body#front-page {
 }
 .white {
     color: white;
+}
+
+.black {
+  color: black;
+  border-color: black;
 }

@@ -16,7 +16,7 @@ get_header(); ?>
                 <div class="post-heading">
                     <h1><?php the_title();  ?></h1>
                     <!--<h2 class="subheading">Problems look mighty small from 150 miles up</h2> THIS IS SUBTITLE-->
-                    <span class="meta">Publicado por <a href="#"><?php the_author(); ?></a> el <?php echo get_the_date('F, j, Y'); ?></span>
+                    <span class="meta">Publicado por <a href="#"><?php the_author(); ?></a>, <?php echo get_the_date('F, j, Y'); ?></span>
                 </div>
             </div>
         </div>

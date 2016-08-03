@@ -7,9 +7,9 @@
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Blog</h1>
+                        <h1>Artículos <i class="fa fa-code" aria-hidden="true"></i> Blog</h1>
                         <hr class="small">
-                        <span class="subheading">I like writing about all sort of stuff.</span>
+                        <span class="subheading">Ocasionalmente escibo sobre desarrollo y tecnología.</span>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                            <?php the_excerpt(); ?>
                        </h3>
                     </a>
-                    <p class="post-meta">Publicado por <a href="#"><?php the_author(); ?></a> el <?php echo get_the_date('F, j, Y'); ?></p>
+                    <p class="post-meta">Publicado por <a href="#"><?php the_author(); ?></a>, <?php echo get_the_date('F, j, Y'); ?></p>
                 </div>
                 <hr>
 
