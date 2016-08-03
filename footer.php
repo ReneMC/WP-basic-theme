@@ -29,7 +29,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?> | Made with ♥ using <a <?php frontPageFooterLinks();?> target="_blank" href="https://wordpress.org/">WordPress</a> and <a <?php frontPageFooterLinks();?> target="_blank" href="http://startbootstrap.com/">StartBootstrap</a>.</p>
+                <p class="copyright text-muted">Copyright &copy; <?php echo get_bloginfo('name'); ?> <?php echo date('Y'); ?> | Hecho con ♥ utilizando <a <?php frontPageFooterLinks();?> target="_blank" href="https://wordpress.org/">WordPress</a> y <a <?php frontPageFooterLinks();?> target="_blank" href="http://startbootstrap.com/">StartBootstrap</a>.</p>
             </div>
         </div>
     </div>
