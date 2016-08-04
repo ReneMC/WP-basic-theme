@@ -9,7 +9,7 @@
                     <div class="site-heading">
                         <h1>Artículos <i class="fa fa-code" aria-hidden="true"></i> Blog</h1>
                         <hr class="small">
-                        <span class="subheading">Ocasionalmente escibo sobre desarrollo y tecnología.</span>
+                        <span class="subheading">Ocasionalmente escribo sobre tecnología y desarrollo.</span>
                     </div>
                 </div>
             </div>
