@@ -112,6 +112,31 @@ get_header(); ?>
 
 	</div>
 	<!-- /.row -->
+   
+   	<!-- Portfolio Item 4 Row -->
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3><?php the_field('project_name_4'); ?></h3>
+			</div>
+			<div class="panel-body">
+				<div class="col-md-4">
+					<p><?php the_field('project_description_4'); ?></h3>
+					<h3>Tecnologías</h3>
+					<ul>
+						<?php the_field('project_details_4'); ?>
+					</ul>
+					<a class="btn btn-default" href="<?php the_field('project_url_4'); ?>" target="_blank">Ir al sitio</a>
+				</div>
+
+				<div class="col-md-8 hidden-xs">
+				   <img src="<?php the_field('project_capture_4'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_4'); ?>">
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- /.row -->
     
 </div><!--.container-->
 
