@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-    <video autoplay loop muted poster="screenshot.jpg" id="background">
-        <source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/program.mp4" type="video/mp4">
-    </video>
+<video autoplay loop muted poster="screenshot.jpg" id="background" class="visible-md visible-lg">
+	<source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/program.mp4" type="video/mp4">
+</video>
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header front-header">
+<header class="intro-header front-header" >
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">

@@ -35,7 +35,7 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 function frontPageFeaturedBody(){
     if(is_front_page()){
-        _e(" id='front-page'");
+		_e(" id='front-page'");
     }
 }
 
