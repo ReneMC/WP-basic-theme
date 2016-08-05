@@ -48,7 +48,7 @@ get_header(); ?>
 					<a class="btn btn-default" href="<?php the_field('project_url_1'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8">
+				<div class="col-md-8 hidden-xs">
 				   <img src="<?php the_field('project_capture_1'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_1'); ?>">
 				</div>
 			</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 
 	<br>
 
-	<!-- Portfolio Item 1 Row -->
+	<!-- Portfolio Item 2 Row -->
 	<div class="row">
 		<div class="panel panel-default">
 			<div class="panel-heading">
@@ -76,7 +76,7 @@ get_header(); ?>
 					<a class="btn btn-default" href="<?php the_field('project_url_2'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8">
+				<div class="col-md-8 hidden-xs">
 				   <img src="<?php the_field('project_capture_2'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_2'); ?>">
 				</div>
 			</div>
@@ -88,7 +88,7 @@ get_header(); ?>
 	<hr class="small">
 
 
-	<!-- Portfolio Item 1 Row -->
+	<!-- Portfolio Item 3 Row -->
 	<div class="row">
 		<div class="panel panel-default">
 			<div class="panel-heading">
@@ -104,7 +104,7 @@ get_header(); ?>
 					<a class="btn btn-default" href="<?php the_field('project_url_3'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8">
+				<div class="col-md-8 hidden-xs">
 				   <img src="<?php the_field('project_capture_3'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_3'); ?>">
 				</div>
 			</div>
