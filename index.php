@@ -41,8 +41,10 @@
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-                        <a href="<?php next_posts_link('Older Posts'); ?>">Older Posts &rarr;</a>
-                        <a href="<?php previous_posts_link('Newer Posts'); ?>">&larr; Newer Posts</a>
+                        <?php next_posts_link('Older Posts &rarr;'); ?>
+                    </li>
+                    <li class="next">
+                        <?php previous_posts_link('&larr; Newer Posts'); ?>
                     </li>
                 </ul>
             </div>
