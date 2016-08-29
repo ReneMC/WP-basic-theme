@@ -31,7 +31,9 @@ get_header(); ?>
             
         </div>
     </div>
-    
+</div><!--.container-->
+   
+<div class="container" id="projects">
 	<!-- Portfolio Item 1 Row -->
 	<div class="row">
 		<div class="panel panel-default">
