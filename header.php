@@ -19,7 +19,7 @@ _/ ___\/  _ \ / __ |/ __ \\__  \\   __\\   __\/ __ \_  __ \_/ ___\/  _ \   __\\ 
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php wp_title('|', true, 'right'); ?></title>
+    <title><?php wp_title(''); ?></title>
 
     <!-- Custom Fonts -->
     <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
