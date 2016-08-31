@@ -416,12 +416,11 @@ body {
 
 /* Full screen responsive background image with dark filter */
 body#front-page {
-
-background-image: url('images/studio.png');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-image: url('images/screenshot.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .front-header {
@@ -441,20 +440,20 @@ background-image: url('images/studio.png');
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-      background: url("images/screenshot.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("images/screenshot.png") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
     background-size: cover;
 }
 .white {
-    color: white;
+	color: white;
 }
 
 .black {
-  color: black;
-  border-color: black;
+	color: black;
+	border-color: black;
 }
 
 .container #projects {

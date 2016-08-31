@@ -4,11 +4,12 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title><?php wp_title(''); ?></title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Rene E. Mejia">
-
-    <title><?php wp_title(''); ?></title>
 
     <!-- Custom Fonts -->
     <link href="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -58,3 +59,15 @@
     </div>
     <!-- /.container -->
 </nav>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>

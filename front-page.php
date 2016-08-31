@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<video autoplay loop muted poster="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/Screenshot.jpg" id="background" class="visible-md visible-lg">
-	<source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/program.mp4" type="video/mp4">
+<video autoplay loop muted poster="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/Screenshot.png" id="background" class="visible-md visible-lg blackened">
+	<source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/vbackground.mp4" type="video/mp4">
 </video>
 
 <!-- Page Header -->
