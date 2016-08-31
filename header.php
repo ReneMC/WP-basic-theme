@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!--
-                 .___             _____  __                              _____  _____              
-  ____  ____   __| _/____ _____ _/ ____\/  |_  ___________   ____  _____/ ____\/ ____\____   ____  
-_/ ___\/  _ \ / __ |/ __ \\__  \\   __\\   __\/ __ \_  __ \_/ ___\/  _ \   __\\   __\/ __ \_/ __ \ 
-\  \__(  <_> ) /_/ \  ___/ / __ \|  |   |  | \  ___/|  | \/\  \__(  <_> )  |   |  | \  ___/\  ___/ 
- \___  >____/\____ |\___  >____  /__|   |__|  \___  >__|    \___  >____/|__|   |__|  \___  >\___  >
-     \/           \/    \/     \/                 \/            \/                       \/     \/ 
-     
-     Have an idea or want to work something cool? contact me
-     
--->
 <html <?php language_attributes(); ?>>
 
 <head>
@@ -17,12 +6,12 @@ _/ ___\/  _ \ / __ |/ __ \\__  \\   __\\   __\/ __ \_  __ \_/ ___\/  _ \   __\\ 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Rene E. Mejia">
 
     <title><?php wp_title(''); ?></title>
 
     <!-- Custom Fonts -->
-    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
