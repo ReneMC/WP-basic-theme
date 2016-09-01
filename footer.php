@@ -13,10 +13,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://bitbucket.com/renem" target="_blank">
+                        <a href="skype:rene.mejiac?chat" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-bitbucket fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
