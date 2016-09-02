@@ -13,7 +13,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="skype:rene.mejiac?chat" target="_blank">
+                        <a href="skype:rene.mejiac?chat">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
