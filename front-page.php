@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<video autoplay loop muted poster="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/Screenshot.png" id="background" class="visible-md visible-lg blackened">
+<video autoplay loop muted poster="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/screenshot.png" id="background" class="visible-md visible-lg blackened">
 	<source src="<?php echo esc_url(home_url()); ?>/wp-content/themes/basicTheme/images/vbackground.mp4" type="video/mp4">
 </video>
 
