@@ -11,9 +11,9 @@
         <div class="row">
             <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1><?php the_field('main_header_text'); ?></h1>
+                    <?php the_field('main_header_text'); ?>
                     <hr class="small">
-                    <span class="subheading"><?php the_field('main_header_subtext'); ?></span>
+                    <div class="subheading"><?php the_field('main_header_subtext'); ?></div>
                 </div>
             </div>
         </div>

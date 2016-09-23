@@ -52,7 +52,7 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>"><?php echo get_bloginfo('name'); ?></a>
+            <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>"><i class="fa fa-code" aria-hidden="true"></i> <?php echo get_bloginfo('name'); ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
