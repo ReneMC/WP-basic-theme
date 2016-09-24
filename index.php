@@ -41,10 +41,10 @@
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-                        <?php next_posts_link('Older Posts &rarr;'); ?>
+                        <?php next_posts_link('Ver más &rarr;'); ?>
                     </li>
-                    <li class="next">
-                        <?php previous_posts_link('&larr; Newer Posts'); ?>
+                    <li class="previous">
+                        <?php previous_posts_link('&larr; Regresar'); ?>
                     </li>
                 </ul>
             </div>
