@@ -27,7 +27,7 @@ get_header(); ?>
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <?php the_content(); ?>
                 <?php wp_link_pages(); ?>
             </div>

@@ -19,7 +19,7 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="post-preview" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <a href="<?php the_permalink();?>" title="<?php the_title_attribute(); ?>">
