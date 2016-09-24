@@ -14,6 +14,7 @@
                     <?php the_field('main_header_text'); ?>
                     <hr class="small">
                     <div class="subheading"><?php the_field('main_header_subtext'); ?></div>
+                    <button class="btn btn-default" onclick="window.location.href='contacto'">Contacto</button>
                 </div>
             </div>
         </div>

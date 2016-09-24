@@ -32,7 +32,7 @@ get_header(); ?>
    
 	<!-- Portfolio Item 1 Row -->
 	<div class="row">
-		<div class="panel panel-info">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_1'); ?></h3>
 			</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 
 	<!-- Portfolio Item 2 Row -->
 	<div class="row">
-		<div class="panel panel-info">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_2'); ?></h3>
 			</div>
@@ -88,7 +88,7 @@ get_header(); ?>
 
 	<!-- Portfolio Item 3 Row -->
 	<div class="row">
-		<div class="panel panel-info">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_3'); ?></h3>
 			</div>
@@ -113,7 +113,7 @@ get_header(); ?>
    
    	<!-- Portfolio Item 4 Row -->
 	<div class="row">
-		<div class="panel panel-info">
+		<div class="panel panel-primary">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_4'); ?></h3>
 			</div>
