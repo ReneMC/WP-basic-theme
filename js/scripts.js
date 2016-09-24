@@ -16,6 +16,7 @@ $j(document).ready(function() {
             "floating-label-form-group-with-focus");
     });
 });
+
 // Navigation Scripts to Show Header on Scroll-Up
 $j(document).ready(function($) {
     var MQL = 1170;
@@ -44,4 +45,28 @@ $j(document).ready(function($) {
             this.previousTop = currentTop;
         });
     }
+});
+
+/* Prettify */
+  !function ($) {
+    $j(function(){
+      window.prettyPrint && prettyPrint()   
+    })
+  }(window.jQuery)
+
+/* Prettyprint fix: WordPress overrides special characters in blog posts.
+ * (http://stackoverflow.com/questions/16717518/problems-displaying-html-snippets-with-code-and-or-pre) 
+ */
+$j(document).ready(function() {
+  $j('.prettyprint').html(function(i,h){
+    return h.replace(/[<>\"\'\t\n]/g, function(m) { return {
+      '<' : '&lt;',
+      '>' : '&gt;',
+      "'" : '&#39;',
+      '"' : '&quot;',
+      '\t': '  ',
+      '\n': '<br/>' // needed for IE
+    }[m]});
+  });
+ // prettyPrint();
 });
