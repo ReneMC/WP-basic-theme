@@ -11,7 +11,7 @@ get_header(); ?>
 <header class="intro-header" style="background-image: url('<?php the_field('about_header_image'); ?>')">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                 <div class="page-heading">
                     <h1><?php the_field('about_title'); ?></h1>
                     <hr class="small">
@@ -29,28 +29,24 @@ get_header(); ?>
 
             <p><?php the_field('about_content'); ?></p>
             
-        </div>
-    </div>
-</div><!--.container-->
    
-<div class="container" id="projects">
 	<!-- Portfolio Item 1 Row -->
 	<div class="row">
-		<div class="panel panel-default">
+		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_1'); ?></h3>
 			</div>
 			<div class="panel-body">
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<p><?php the_field('project_description_1'); ?></h3>
 					<h3>Tecnologías</h3>
 					<ul>
 						<?php the_field('project_details_1'); ?>
 					</ul>
-					<a class="btn btn-default" href="<?php the_field('project_url_1'); ?>" target="_blank">Ir al sitio</a>
+					<a class="btn btn-primary" href="<?php the_field('project_url_1'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8 hidden-xs">
+				<div class="col-md-7 hidden-xs">
 				   <img src="<?php the_field('project_capture_1'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_1'); ?>">
 				</div>
 			</div>
@@ -64,21 +60,21 @@ get_header(); ?>
 
 	<!-- Portfolio Item 2 Row -->
 	<div class="row">
-		<div class="panel panel-default">
+		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_2'); ?></h3>
 			</div>
 			<div class="panel-body">
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<p><?php the_field('project_description_2'); ?></h3>
 					<h3>Tecnologías</h3>
 					<ul>
 						<?php the_field('project_details_2'); ?>
 					</ul>
-					<a class="btn btn-default" href="<?php the_field('project_url_2'); ?>" target="_blank">Ir al sitio</a>
+					<a class="btn btn-primary" href="<?php the_field('project_url_2'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8 hidden-xs">
+				<div class="col-md-7 hidden-xs">
 				   <img src="<?php the_field('project_capture_2'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_2'); ?>">
 				</div>
 			</div>
@@ -92,21 +88,21 @@ get_header(); ?>
 
 	<!-- Portfolio Item 3 Row -->
 	<div class="row">
-		<div class="panel panel-default">
+		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_3'); ?></h3>
 			</div>
 			<div class="panel-body">
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<p><?php the_field('project_description_3'); ?></h3>
 					<h3>Tecnologías</h3>
 					<ul>
 						<?php the_field('project_details_3'); ?>
 					</ul>
-					<a class="btn btn-default" href="<?php the_field('project_url_3'); ?>" target="_blank">Ir al sitio</a>
+					<a class="btn btn-primary" href="<?php the_field('project_url_3'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8 hidden-xs">
+				<div class="col-md-7 hidden-xs">
 				   <img src="<?php the_field('project_capture_3'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_3'); ?>">
 				</div>
 			</div>
@@ -117,21 +113,21 @@ get_header(); ?>
    
    	<!-- Portfolio Item 4 Row -->
 	<div class="row">
-		<div class="panel panel-default">
+		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h3><?php the_field('project_name_4'); ?></h3>
 			</div>
 			<div class="panel-body">
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<p><?php the_field('project_description_4'); ?></h3>
 					<h3>Tecnologías</h3>
 					<ul>
 						<?php the_field('project_details_4'); ?>
 					</ul>
-					<a class="btn btn-default" href="<?php the_field('project_url_4'); ?>" target="_blank">Ir al sitio</a>
+					<a class="btn btn-primary" href="<?php the_field('project_url_4'); ?>" target="_blank">Ir al sitio</a>
 				</div>
 
-				<div class="col-md-8 hidden-xs">
+				<div class="col-md-7 hidden-xs">
 				   <img src="<?php the_field('project_capture_4'); ?>" class="img-responsive" alt="<?php the_field('project_capture_alt_4'); ?>">
 				</div>
 			</div>
