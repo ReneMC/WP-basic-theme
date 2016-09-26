@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Desarrollo web y blog de programación y tecnología en Mexicali. A través de los años he tenido la fortuna de participar en diferentes proyectos web. Apasionado por el diseño y desarrollo de tecnologías web y casi todo lo que implique crear cosas nuevas.">
+    <meta name="description" content="Desarrollo web y blog de programación y tecnología en Mexicali. Un lugar dónde compartir la experiencia que he ido adquiriendo durante algunos años.">
+    <meta name="keywords" content="Desarrollo web, tecnologia, programacion, Rene E. Mejia, mexicali">
     <meta name="author" content="Rene E. Mejia">
     
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
