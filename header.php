@@ -9,7 +9,7 @@
     <meta name="directory" content="submission">
     <meta name="rating" content="General">
     
-    <meta name="description" content="Desarrollo web y blog de programación y tecnología en Mexicali. Un lugar dónde compartir la experiencia que he ido adquiriendo durante algunos años.">
+    <meta name="description" content="Desarrollo web y blog de programación y tecnología en Mexicali. Un lugar dónde compartir la experiencia que he ido adquiriendo durante algun timepo.">
     <meta name="keywords" content="Desarrollo web, tecnologia, programacion, Rene E. Mejia, mexicali">
     <meta name="author" content="Rene E. Mejia">
     
