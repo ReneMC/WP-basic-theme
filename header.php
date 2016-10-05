@@ -5,15 +5,11 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="canonical" href="http://codeaftercoffee.com" />
     <meta name="directory" content="submission">
     <meta name="rating" content="General">
     
-    <meta name="description" content="Desarrollo web, portafolio y blog de programación. Un lugar dónde compartir la experiencia que he ido adquiriendo durante algún tiempo.">
     <meta name="keywords" content="Desarrollo web, tecnologia, programacion, Rene E. Mejia, mexicali">
     <meta name="author" content="Rene E. Mejia">
-    
-    <meta name="robots" content="index,follow,noodp">
     <meta name="googlebot" content="index,follow">
     <meta name="distribution" content="web">
     
