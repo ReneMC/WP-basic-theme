@@ -31,14 +31,14 @@ function basicTheme_scripts (){
     // wp_enqueue_style('font-awesome', get_template_directory_uri() . '/fonts/font-awesome.min.css');
     wp_enqueue_style('all-css', get_template_directory_uri() . '/css/all.css');
     wp_enqueue_style('custom', get_template_directory_uri() . '/style.css');
-    wp_enqueue_style('prettyprint', 'https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css');
+    //wp_enqueue_style('prettyprint', 'https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css');
     
     /* Add scripts */
 	wp_enqueue_script("jquery");
     // wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), true);
     // wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), true);
     wp_enqueue_script('all-js', get_template_directory_uri() . '/js/all.js', array('jquery'), true);
-    wp_enqueue_script('prettyprint', 'https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js', array('jquery'), true);
+    //wp_enqueue_script('prettyprint', 'https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js', array('jquery'), true);
 }
 add_action('wp_enqueue_scripts', 'basicTheme_scripts');
 
