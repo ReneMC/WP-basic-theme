@@ -21,7 +21,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/ReneMC" target="_blank" title="GitHub" rel="nofollow">
+                        <a href="https://github.com/rensmc" target="_blank" title="GitHub" rel="nofollow">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
